@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    overflow-y: clip;
+}
+
+.login-image{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 659px) {
+
+    .login_btn{
+        padding: 20px;
+        float: right;
+        }
+
+    .login-image img{
+        height: 40px;
+        width: 80px;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.login_form_container{
+    display: block;
+    background-color: rgb(36, 36, 36);
+    margin: 0 auto;
+    margin-top: 10rem;
+    max-width: 30%;
+    border-radius: 20px;
+    padding: 4rem 5rem;
+}
+
+.login-image img{
+    height: 60px;
+    width:100px;
+    display: block;
+}
+
+h5{
+    color: white;
+    display: block;
+    margin: 0 0 1rem 1.5rem;
+}
+
+input{
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
+    width: 90%;
+    border-style: none;
+    outline: none;
+
+}
+
+.input{
+    padding: 5px;
+}
+
+.login_btn{
+padding: 20px;
+display: flex;
+justify-content: center;
+}
+
+
+button{
+    background-color: rgb(22, 189, 22);
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+    border-style: none;
+    display: block;
+    width: 5rem;
+}
+
+.error-msg{
+    color: red;
+    display: flex;
+    justify-content: center;
+}

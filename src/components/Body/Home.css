@@ -1,0 +1,45 @@
+.body-container{
+    color: white;
+    margin-top: 1rem;
+    height: 74vh;
+    overflow-y: scroll;
+    width: 85vw;
+}
+
+@media screen and (max-width:768px) {
+    .body-container{
+        color: white;
+        margin-top: 1rem;
+        height: 65vh;
+        overflow-y: scroll;
+        width: 100vw;
+    }
+}
+
+.display-flex{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-body{
+    width: 100%;
+}
+
+.featured-playlist{
+    margin-bottom: 1rem;
+}
+
+.display-flex h3 {
+    margin-left: 2rem ;
+    color: white;
+}
+
+.display-flex a {
+    color: #1ED760;
+    text-decoration: none;
+    font-size: .8rem;
+}
+.header-home{
+    width: 100%;
+}

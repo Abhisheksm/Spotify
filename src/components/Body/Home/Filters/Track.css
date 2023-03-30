@@ -1,0 +1,41 @@
+table{
+    width: 80%;
+    padding: 0 1rem 1rem 1rem;
+}
+
+table tr {
+  margin: 1rem;
+  gap: 1rem;
+}
+.table-row{
+    margin: 1rem;
+}
+
+
+td img{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.track-container-search{
+    height: 400px;
+    overflow-y: scroll;
+    color:white
+}
+
+@media screen and (max-width: 768px) {
+
+    table{
+        width: 95%;
+        padding: 0 1rem 1rem 1rem;
+    }
+ 
+    .track-container-search{
+        height: 55vh;
+        overflow-y: scroll;
+        color:white;
+        width: 83%;
+    }
+    
+}

@@ -1,0 +1,116 @@
+.body-container1{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    margin-top: 1rem;
+}
+
+.body-container2{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    margin-top: 1rem;
+    height: 470px;
+    overflow-y: scroll;
+}
+
+.playlist{
+    margin: 0 2rem;
+    align-items: center;
+    gap:2rem;
+    background-color: #2E2E2E;
+    width: 12rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image img{
+    height: auto;
+    width: 100%;
+    object-position: center; 
+}
+
+.details{
+    padding: .1rem .1rem; 
+    height: 60px;
+    overflow: hidden;
+
+}
+
+.title{
+    margin-top: 2px;
+    margin-left: 5px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.description a {
+    font-size: .8rem;
+}
+
+.description{
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width:768px) {
+    .body-container2{
+        color: white;
+        row-gap: 2rem;
+        margin-top: 1rem;
+        height: 710px;
+        overflow-y: scroll;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .body-container1{
+        color: white;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .playlist{
+        margin: 0 0.5rem;
+        align-items: center;
+        gap:2rem;
+        background-color: #2E2E2E;
+        width: 12rem;
+        border-radius: 1rem;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width:420px) {
+    .body-container2{
+        color: white;
+        row-gap: 2rem;
+        margin-top: 1rem;
+        height: 65vh;
+        overflow-y: scroll;
+        display: grid;
+        grid-template-columns: auto ;
+        justify-items: center;
+    }
+    .body-container1{
+        color: white;
+        flex-wrap: wrap;
+        row-gap: 2rem;
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: center;
+    }
+    
+}

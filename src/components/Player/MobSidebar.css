@@ -1,0 +1,37 @@
+.ham-sidebar-container {
+    color: white;
+    margin-left: 1rem;
+    height: 2rem;
+}
+
+.ham-logo {
+    max-inline-size: 50%;
+    margin-left: 7rem;
+    margin-top: 1rem;
+    height: 40px
+}
+
+.ham-menu {
+    margin-top: 2rem;
+    transition: .3s ease-in-out;
+}
+
+.ham-top {
+    display: flex;
+}
+
+.ham-list {
+    list-style : none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 999;
+    background-color: black;
+}
+
+.ham-list-item {
+    transition: .3s;
+    padding: 0.5rem;
+}
+

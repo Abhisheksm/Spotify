@@ -1,0 +1,23 @@
+.volume-container{
+    display: flex;
+    margin-left: 15rem;
+}
+
+.volume-slider{
+    position:fixed;
+    bottom:1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .volume-container{
+        display: flex;
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .volume-container{
+        display: flex;
+        margin-left: 3rem;
+    }
+}
